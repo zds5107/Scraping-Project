@@ -8,7 +8,7 @@ import webbrowser
 class App(tk.Tk):
     def __init__(self, canScrape, curCat, rtnScrapCat, rtnSearch):
         super().__init__()
-        self.title("Scrapping Project")
+        self.title("Scraping Project")
         self.geometry("1200x600")
         self.rtnScrapCat = rtnScrapCat
         self.rtnSearch = rtnSearch
@@ -98,7 +98,7 @@ class Display(tk.Frame):
     def __init__(self,parent, curCat):
         super().__init__(parent)
 
-        have_label = ttk.Label(self, text="Already Scrapped", font = "Calibri 18 bold")
+        have_label = ttk.Label(self, text="Already Scraped", font = "Calibri 18 bold")
         have_label.pack()
 
 
