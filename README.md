@@ -12,8 +12,8 @@ This project was developed to explore webscraping and showcase how the collected
 To use this project you will need to have python installed. It is recommended that you set up a virtual environment. After this you can clone the repository and install the dependencies using the requirements.txt file. After this you can run main.py.
 
  ## Libraries
--BeautifulSoup4 under the MIT license
--python-requests undet the Apache License Version 2.0
+- BeautifulSoup4 under the MIT license
+- python requests undet the Apache License Version 2.0
 
 
 
